@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.weafricans.script.HomeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.951 s <<< FAILURE! - in com.weafricans.script.HomeTest
+preCondition(com.weafricans.script.HomeTest)  Time elapsed: 0.495 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by @Configuration on method preCondition but has not been marked @Optional or defined
+
+

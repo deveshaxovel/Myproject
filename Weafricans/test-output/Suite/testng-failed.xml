@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="FIREFOX"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.weafricans.script.HomeTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="testLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.weafricans.script.HomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
